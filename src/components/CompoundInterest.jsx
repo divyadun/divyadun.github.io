@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function SimpleInterest() {
+function CompoundInterest() {
   var [loanAmount, setLoanAmount] = useState(100) 
   var [tenureYears, setTenureYears] = useState(10)   // This is to store and change years in ReactJS
 
@@ -13,8 +13,8 @@ function SimpleInterest() {
 
   return (
     <div >
-      <p style={{fontSize: '24px', color: 'blue'}}>
-        Know your Simple interest EMI powered by Divya
+      <p style={{fontSize: '24px', color: 'brown'}}>
+        Know your Compound interest EMI powered by Divya
       </p>
 
       <p>Principle loan amount ?</p>
@@ -33,4 +33,4 @@ function SimpleInterest() {
   )
 }
 
-export default SimpleInterest
+export default CompoundInterest

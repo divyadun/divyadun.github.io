@@ -8,10 +8,10 @@ export default function TabContainer({tab1, tab2, tab3}) {
     <Tabs defaultValue="si">
       <Tabs.List>
         <Tabs.Tab value="si" leftSection={<IconPhoto style={iconStyle} />}>
-          Simple Interest
+          Simple Interest Calculate
         </Tabs.Tab>
         <Tabs.Tab value="ci" leftSection={<IconMessageCircle style={iconStyle} />}>
-          Compound Interest
+          Compound Interest Calculate
         </Tabs.Tab>
         <Tabs.Tab value="todo" leftSection={<IconSettings style={iconStyle} />}>
           TODO plan list
